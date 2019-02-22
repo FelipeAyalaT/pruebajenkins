@@ -59,6 +59,18 @@
 
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>http://repo.maven.apache.org/maven2/HTTPClient/HTTPClient/maven-metadata.xml</url>
+        </repository>
+    </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>http://repo.maven.apache.org/maven2/HTTPClient/HTTPClient/maven-metadata.xml</url>
+        </repository>
+    </distributionManagement>
 
 </project>
